@@ -14,6 +14,6 @@ app.get('/GetOrdersCount', function (req, res) {
     res.end();
 });
 
-http.listen(8080, function () {
+http.listen(8080, 'nodejs-zumobot.rhcloud.com', function () {
     console.log('listening on *:8080');
 });
